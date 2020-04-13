@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.libraryapp">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/gro"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/gro"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--<activity android:name=".Adapter_location"></activity>!-->
+        <activity android:name=".Location_based" />
+        <activity android:name=".Showbook" />
+        <activity android:name=".Tablerequest" />
+        <activity android:name=".ClassicActivity" />
+        <activity android:name=".Mythology" />
+        <activity android:name=".Romantic" />
+        <activity android:name=".Humour" />
+        <activity android:name=".Horroruser" />
+        <activity android:name=".Afteruser" />
+        <activity android:name=".Aftercatagory" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Userlogin" />
+        <activity android:name=".Aftersplash" />
+        <activity android:name=".Updatethis" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".catagory" />
+        <activity android:name=".addbook" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

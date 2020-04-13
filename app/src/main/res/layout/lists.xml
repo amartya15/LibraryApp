@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nam"
+        android:text="categary"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="30dp"
+        android:id="@+id/cat"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="weight"
+        android:inputType="number"
+        android:layout_alignParentRight="true"
+        android:id="@+id/wei"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:paddingLeft="30dp"
+        android:layout_below="@id/cat"
+        android:inputType="number"
+        android:id="@+id/price"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="location"
+        android:paddingLeft="30dp"
+        android:layout_below="@id/price"
+        android:inputType="text"
+        android:id="@+id/location"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check"
+        android:layout_toLeftOf="@id/nam"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:layout_below="@id/wei"
+        android:src="@drawable/update"
+        android:layout_alignParentRight="true"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/delete"
+        android:id="@+id/delete"
+        />
+
+
+
+</RelativeLayout>
